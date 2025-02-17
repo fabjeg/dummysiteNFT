@@ -1,0 +1,40 @@
+.container-cards{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    margin-inline: 10%;
+}
+.span-h5{
+    color: #21e786;
+}
+.title-h6{
+    color: white;
+    font-size: 44px;
+    line-height: 56px;
+    font-weight: bold;
+    text-align: center;
+    margin: 3% 0 3% 0;
+}
+.logo-image img{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 30%;
+}
+.h5-title{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Bakbak One", sans-serif;
+}
+.h5-title:hover{
+    color: #21e786;
+}
+.p-txt{
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.binabox-work-container .cards-about-slide {
+    align-items: flex-start;
+}

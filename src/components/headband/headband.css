@@ -1,0 +1,21 @@
+.headband {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #21e786;
+    overflow: hidden;
+    padding: 9px 80px;
+    white-space: nowrap;
+    height: 60px;
+}
+
+.p_headband {
+    color: #141b22;
+    display: inline-block;
+    font-size: 32px;
+    line-height: 42px;
+    white-space: nowrap;
+    margin-right: 113px;
+    font-family: "Bakbak One", serif;
+    font-weight: 400;
+    word-spacing: 70px; 
+}

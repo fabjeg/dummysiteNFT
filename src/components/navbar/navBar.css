@@ -1,0 +1,124 @@
+.logo_theme {
+    border-radius: 50%;
+    width: 48px;  
+    height: 48px; 
+    background-color: #141B22;
+    margin-right: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fa-sun {
+    font-size: 20px;
+    color: #21E786;
+}
+
+.buttons_navbar{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.button {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white; 
+    text-decoration: none;
+    background-color: #141B22; 
+    transition: color 0.4s;
+    font-weight: bold;
+    border: none;
+}
+.button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    background-color: #21E786;
+    transition: all 0.4s;
+    z-index: 0;
+}
+.button:hover::before {
+    left: 0;
+    right: 0;
+}
+.button:hover {
+    color: white; 
+}
+.button span {
+    position: relative;
+    z-index: 1;
+}
+.span{
+    display: flex;
+    align-items: center;
+    gap: 5%;
+}
+.button .span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button2{
+    background-color: #21E786;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px ;
+}
+.button2:hover{
+    border: 2px solid #21E786;
+    background-color: #000;
+    color: white;
+}
+.navbar {
+  background-color: #040B11 !important; 
+  border: none !important;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  flex-grow: 1; 
+}
+
+.nav-item .nav-link {
+  color: white !important;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 20px; 
+  transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: #21e786 !important; 
+}
+
+.dropdown-menu {
+  background-color: #040B11; 
+  border: none;
+}
+
+.dropdown-item {
+  color: white !important;
+}
+
+.dropdown-item:hover {
+  background-color: #21e786 !important;
+  color: #040B11 !important;
+}
+
+
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  color: white; 
+}

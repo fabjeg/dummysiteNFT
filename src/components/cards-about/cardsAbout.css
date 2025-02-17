@@ -1,0 +1,109 @@
+.container-cards-about {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cards-about {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: auto;
+    background-color: #141b22;
+    margin-bottom: 8%;
+    overflow: hidden;
+    margin-right: 3%;
+    padding: 76px 30px 30px;
+    transition: box-shadow 0.5s ease-in-out; 
+  }
+  
+  .cards-about:hover {
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 10px 25px;
+  }
+  
+  .cards-about::before,
+  .cards-about::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    transition: width 0.5s ease-in-out, height 0.5s ease-in-out, border-color 0.5s ease-in-out;
+  }
+  
+  .cards-about::before {
+    top: 0;
+    left: 0;
+    border-top: 4px solid transparent;
+    border-left: 4px solid transparent;
+  }
+  
+  .cards-about::after {
+    bottom: 0;
+    right: 0;
+    border-bottom: 4px solid transparent;
+    border-right: 4px solid transparent;
+  }
+  
+  .cards-about:hover::before,
+  .cards-about:hover::after {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .cards-about:hover::before {
+    border-top-color: #21e786;
+    border-left-color: #21e786;
+  }
+  
+  .cards-about:hover::after {
+    border-bottom-color: #21e786;
+    border-right-color: #21e786;
+  }
+  
+  .cards-about:not(:hover)::before,
+  .cards-about:not(:hover)::after {
+    width: 0;
+    height: 0;
+    border-color: transparent;
+  }
+  
+  .title-h3 {
+    color: rgb(33, 231, 134);
+    font-family: "Bakbak One";
+    font-size: 80px;
+    font-weight: 400;
+    left: 50%;
+    opacity: 0.3;
+    position: absolute;
+    top: 26px;
+    transform: translateX(-50%);
+    transition: color 0.3s, opacity 0.3s;
+  }
+  
+  .cards-about:hover .title-h3 {
+    color: #87ffbb; 
+    opacity: 1; 
+  }
+  
+  .strong-cards {
+    color: white;
+    font-family: "Bakbak One";
+    font-size: 24px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 18px;
+  }
+  
+  .p-cards {
+    color: white;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+  }
+  

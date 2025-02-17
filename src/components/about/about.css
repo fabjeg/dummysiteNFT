@@ -1,0 +1,60 @@
+.container-about {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  position: absolute;
+}
+.top-left {
+  top: -2%;
+  left: 9%;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 15%;
+}
+.container-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-h1 {
+  color: white;
+  font-family: "Bakbak One", serif;
+  font-weight: 400;
+  margin: 10px 0 20px 0;
+}
+.txt-about {
+  position: relative;
+  color: #B7B8BA;
+  text-align: center;
+  margin-inline: 20%;
+  font-size: 18px;
+  z-index: 2;
+  line-height: 28px;
+}
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin-bottom: 60px;
+}
+.tf-counter {
+  text-align: center;
+}
+.title-tf-counter{
+    color: white;
+    font-size: 20px;
+    font-family: Bakbak One, sans-serif;
+    font-weight: 400;
+}
+.conter-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 4px 16px hsla(0, 0%, 100%, .4);
+}
