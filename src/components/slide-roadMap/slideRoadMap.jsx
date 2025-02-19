@@ -49,6 +49,7 @@ export function SlideRoadMap() {
         }}
         modules={[Pagination, Navigation]}
         className="mySwiper"
+        grabCursor={true}
       >
         {valueCards.map((value, idx) => (
           <SwiperSlide key={idx}>

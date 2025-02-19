@@ -10,15 +10,23 @@
     "preview": "vite preview",
     "docs:dev": "vitepress dev documents",
     "docs:build": "vitepress build documents",
-    "docs:preview": "vitepress preview documents"
+    "docs:preview": "vitepress preview documents",
+    "tailwind-init": "tailwindcss init -p"
   },
   "dependencies": {
+    "@coreui/coreui": "^5.2.0",
+    "@coreui/react": "^5.5.0",
     "@popperjs/core": "^2.11.8",
+    "@radix-ui/react-accordion": "^1.2.3",
     "bootstrap": "^5.3.3",
+    "clsx": "^2.1.1",
     "framer-motion": "^12.4.2",
+    "lucide-react": "^0.475.0",
+    "prop-types": "^15.8.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "swiper": "^11.2.2"
+    "swiper": "^11.2.2",
+    "tailwind-merge": "^3.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

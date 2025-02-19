@@ -10,6 +10,11 @@ import  { SlideAutoCards } from './components/cards-slide/cardsSlide'
 import { RoadMap } from './components/roadMap/roadMap'
 import { BinaboxWork } from './components/binaboxWork/binaboxWork'
 import { OurTeam } from './components/ourTeam/ourTeam'
+import { Faqs } from './components/FAQS/faqs'
+import { Partner } from './components/partner/partner'
+import { Partner2 } from './components/partner/partner2'
+import { Partner3 } from './components/partner/partner3'
+import { ContactCommunity } from './components/contactCommunity/contactCommunity'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,5 +27,10 @@ createRoot(document.getElementById('root')).render(
     <RoadMap/>
     <BinaboxWork/>
     <OurTeam/>
+    <Faqs/>
+    <Partner/>
+    <Partner2/>
+    <Partner3/>
+    <ContactCommunity/>
   </StrictMode>,
 )
