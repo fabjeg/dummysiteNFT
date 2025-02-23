@@ -100,8 +100,6 @@
     transform: translateX(-50%);
   }
 }
-
-/* Animation inverse */
 .carousel-track.reverse {
   animation: scroll-right 50s linear infinite;
 }
@@ -114,8 +112,6 @@
     transform: translateX(0);
   }
 }
-
-
 .strong-cards-slide {
   width: 100%;
   font-size: 20px;
@@ -130,4 +126,9 @@
 .custom-swiper-container .swiper-slide {
   background: #141b22;
   margin: 1% 0 2% 2%;
+}
+@media (max-width: 1000px) {
+  .custom-swiper-container {
+    box-sizing: border-box; /* Exemple de valeur valide */
+  }
 }
