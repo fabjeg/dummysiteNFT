@@ -14,7 +14,7 @@ import { Faqs } from './components/FAQS/faqs'
 import { Partner } from './components/partner/partner'
 import { Partner2 } from './components/partner/partner2'
 import { Partner3 } from './components/partner/partner3'
-import { ContactCommunity } from './components/contactCommunity/contactCommunity'
+import { Footer } from './components/footer/footer'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -31,6 +31,6 @@ createRoot(document.getElementById('root')).render(
     <Partner/>
     <Partner2/>
     <Partner3/>
-    <ContactCommunity/>
+    <Footer/>
   </StrictMode>,
 )

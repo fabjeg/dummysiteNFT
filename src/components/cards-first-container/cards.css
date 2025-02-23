@@ -30,3 +30,8 @@
 .cards .active {
     opacity: 1;
 }
+@media (max-width: 1199px){
+    .cards{
+        margin-bottom: 5%;
+    }
+}

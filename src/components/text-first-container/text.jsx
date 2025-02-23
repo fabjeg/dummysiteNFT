@@ -32,7 +32,7 @@ export function Text() {
                 initial={{ y: "-100%", opacity: 0 }}
                 animate={{ y: "0%", opacity: 1 }}
                 exit={{ y: "30%", opacity: 0 }}
-                transition={{ duration: 0.5, delay: 0.5 }} // Délai ajouté pour l'animation séquentielle
+                transition={{ duration: 0.5, delay: 0.5 }} 
                 className="word"
               >
                 {words[currentWordIndex]}
@@ -49,7 +49,7 @@ export function Text() {
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: "0%", opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
-          transition={{ duration: 0.5, delay: 1 }} // Délai ajouté pour l'animation séquentielle
+          transition={{ duration: 0.5, delay: 1 }} 
         >
           we are the best way to check the rarity of NFT collection
         </motion.p>
@@ -60,7 +60,7 @@ export function Text() {
           initial={{ y: "100%", opacity: 0 }}
           animate={{ y: "0%", opacity: 1 }}
           exit={{ y: "-100%", opacity: 0 }}
-          transition={{ duration: 0.5, delay: 1.5 }} // Délai ajouté pour l'animation séquentielle
+          transition={{ duration: 0.5, delay: 1.5 }} 
         >
           <button className="style_button">CONNECT WALLET</button>
           <button className="style_button2">WHITELIST NOW</button>

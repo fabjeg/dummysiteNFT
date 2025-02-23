@@ -38,3 +38,11 @@
 .binabox-work-container .cards-about-slide {
     align-items: flex-start;
 }
+@media (max-width: 1199px){
+    .container-cards{
+        flex-direction: column;
+    }
+    .container-cards .cards-about-slide{
+        width: 100%;
+    }
+}

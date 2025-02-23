@@ -20,3 +20,8 @@
     text-align: left;
     padding: 20px 0px;
 }
+@media (max-width: 1199px){
+    .partner{
+        margin-inline: 0;
+    }
+}
