@@ -1,11 +1,11 @@
 .container-footer {
   background: url("../../assets/pictures/bg-footer.jpg") 50% 50% no-repeat;
   background-size: cover;
-  height: 502px;
+  height: 410px;
   margin-top: -8%;
 }
 .container-ghost {
-  height: 45%;
+  height: 35%;
 }
 .container1-footer {
   width: 100%;
@@ -33,6 +33,10 @@
 .container-footer ul {
   list-style: none;
   padding: 0;
+}
+.menu1{
+  display: flex;
+  gap: 30%;
 }
 .container-footer li {
   color: #fff;
@@ -85,7 +89,35 @@
     margin-right: 5%;
 }
 @media (max-width: 1199px){
+  .container-footer{
+    height: 100%;
+  }
   .container1-footer{
     gap: 2%;
+    height: 100%;
+  }
+  .container-ghost{
+    height: 60px;
+  }
+  .container1-footer{
+    gap: 2%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-left: 2%;
+  }
+  .menu1{
+    display: flex;
+    gap: 4%;
+    margin-top: 2%;
+  }
+  .container1-footer img{
+    width: 15%;
+  }
+  .link-logo{
+    margin-right: 15%;
+  }
+  .container-input{
+    margin-bottom: 2%;
   }
 }

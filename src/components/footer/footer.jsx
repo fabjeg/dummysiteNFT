@@ -21,18 +21,16 @@ export function Footer() {
             </p>
           </div>
           <div className="menu1">
-            <h6 className="title-footer">SUBSCRIBE</h6>
             <ul>
+            <h6 className="title-footer">SUBSCRIBE</h6>
               <li>Home</li>
               <li>About</li>
               <li>Roadmap</li>
               <li>Our Team</li>
               <li>FAQs</li>
             </ul>
-          </div>
-          <div className="menu1">
-            <h6 className="title-footer">COMPANY</h6>
             <ul>
+            <h6 className="title-footer">COMPANY</h6>
               <li>About Us</li>
               <li>Roadmap</li>
               <li>Testimonial</li>
