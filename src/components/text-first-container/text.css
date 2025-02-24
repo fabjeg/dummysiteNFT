@@ -134,4 +134,7 @@
   .word{
     top: 51%;
   }
+  .title{
+   margin-left: 3%;
+  }
 }
