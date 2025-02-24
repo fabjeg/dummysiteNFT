@@ -95,28 +95,38 @@
   .container1-footer{
     gap: 2%;
     height: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
   }
   .container-ghost{
     height: 60px;
   }
-  .container1-footer{
-    gap: 2%;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
+  .container2-footer{
+    margin-left: 2%;
   }
   .menu1{
     display: flex;
     gap: 4%;
     margin-top: 2%;
+    margin-left: 2%;
   }
   .container1-footer img{
     width: 15%;
   }
   .link-logo{
     margin-right: 15%;
+    font-size: 9px;
   }
   .container-input{
     margin-bottom: 2%;
+    margin-left: 2%;
+  }
+  .border-footer-txt{
+    font-size: 9px;
+    margin-top: 4%;
+  }
+  #subscribe-email{
+    padding: 10px 3px 10px 5px;
   }
 }

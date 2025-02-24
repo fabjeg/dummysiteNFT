@@ -117,7 +117,7 @@
 }
 @media (max-width: 1000px) {
   .custom-swiper-container {
-    box-sizing: border-box; /* Exemple de valeur valide */
+    box-sizing: border-box;
   }
   .strong-cards-slide{
     font-size: 10px;
