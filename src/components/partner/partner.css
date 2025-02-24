@@ -1,27 +1,35 @@
-.span-partner{
-    color: #21e786;
+.span-partner {
+  color: #21e786;
 }
-.title-h6{
-    font-family: "Bakbak One";
 
+.title-h6 {
+  font-family: "Bakbak One";
 }
-.partner{
-    margin-inline: 8%;
-    margin-bottom: 2%;
+
+.partner {
+  margin-inline: 8%;
+  margin-bottom: 2%;
 }
-.partner .swiper-slide{
-    background: none;
-    margin: 0;
+
+.partner .swiper-slide {
+  background: none;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
-.partner .grey-background{
-    background-color: #141B22;
+
+.partner .grey-background {
+  background-color: #141b22;
 }
-.partner img{
-    text-align: left;
-    padding: 20px 0px;
+
+.partner img {
+  max-width: 100%;
+  height: auto;
+  padding: 20px 0;
 }
-@media (max-width: 1199px){
-    .partner{
-        margin-inline: 0;
-    }
+
+@media (max-width: 900px) {
+  .partner {
+    margin-inline: 0;
+  }
 }

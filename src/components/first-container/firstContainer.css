@@ -10,4 +10,8 @@
         flex-direction: column;
         gap: 10%;
     }
+    .first_container{
+        background-image: none;
+        gap: 2%;
+    }
 }

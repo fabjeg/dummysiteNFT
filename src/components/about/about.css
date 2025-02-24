@@ -58,3 +58,13 @@
     color: white;
     text-shadow: 0 4px 16px hsla(0, 0%, 100%, .4);
 }
+@media (max-width: 900px) {
+  .counter {
+    position: relative;
+    z-index: 1;
+}
+.title-h1 {
+  position: relative;
+  z-index: 1;
+}
+}

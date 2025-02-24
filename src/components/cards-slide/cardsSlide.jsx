@@ -42,6 +42,10 @@ export function SlideAutoCards() {
         autoplay={{ delay: 0, disableOnInteraction: false }}
         speed={10000} 
         grabCursor={true}
+        breakpoints={{
+          0: { slidesPerView: 3, spaceBetween: 3 }, 
+          901: { slidesPerView: 6, spaceBetween: 3 }, 
+        }}
       >
         {[...cardsData, ...cardsData].map((card, index) => (
           <SwiperSlide key={index} className="cards-about-slide">
@@ -59,6 +63,10 @@ export function SlideAutoCards() {
         autoplay={{ delay: 0, disableOnInteraction: false, reverseDirection: true }}
         speed={10000} 
         grabCursor={true}
+        breakpoints={{
+          0: { slidesPerView: 3, spaceBetween: 3 }, 
+          901: { slidesPerView: 6, spaceBetween: 3 }, 
+        }}
       >
         {[...cardsData, ...cardsData].map((card, index) => (
           <SwiperSlide key={index} className="cards-about-slide">

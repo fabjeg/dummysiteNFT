@@ -5,7 +5,7 @@ import "./navBar.css";
 export function NavBar() {
   return (
     <nav
-      className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body justify-content-space-between"
+      className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body"
       data-bs-theme="dark"
     >
       <div className="container-fluid justify-content-center">
@@ -84,9 +84,11 @@ export function NavBar() {
               </a>
             </li>
           </ul>
-          <div className="logo_theme">
-            <span className="fa-solid fa-sun"/>
+          <div className="container-logo_theme">
+            <div className="logo_theme">
+              <span className="fa-solid fa-sun" />
             </div>
+          </div>
           <div className="buttons_navbar">
             <button type="button" className="button">
               <div className="span">

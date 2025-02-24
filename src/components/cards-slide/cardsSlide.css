@@ -12,7 +12,6 @@
 .cards-about-slide:hover {
   box-shadow: rgba(255, 255, 255, 0.6) 0px 10px 25px;
 }
-
 .cards-about-slide::before,
 .cards-about-slide::after {
   content: "";
@@ -23,27 +22,23 @@
   transition: width 0.5s ease-in-out, height 0.5s ease-in-out,
     border-color 0.5s ease-in-out;
 }
-
 .cards-about-slide::before {
   top: 0;
   left: 0;
   border-top: 4px solid transparent;
   border-left: 4px solid transparent;
 }
-
 .cards-about-slide::after {
   bottom: 0;
   right: 0;
   border-bottom: 4px solid transparent;
   border-right: 4px solid transparent;
 }
-
 .cards-about-slide:hover::before,
 .cards-about-slide:hover::after {
   width: 40px;
   height: 40px;
 }
-
 .cards-about-slide:hover::before {
   border-top-color: #21e786;
   border-left-color: #21e786;
@@ -53,7 +48,6 @@
   border-bottom-color: #21e786;
   border-right-color: #21e786;
 }
-
 .cards-about-slide:not(:hover)::before,
 .cards-about-slide:not(:hover)::after {
   width: 0;
@@ -65,33 +59,27 @@
   height: 100%;
   object-fit: cover;
 }
-
 .carousel {
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
   position: relative;
 }
-
 .carousel-track {
   display: flex;
   gap: 10px;
 }
-
-
 .carousel-container {
   overflow: hidden;
   width: 100%;
   position: relative;
   white-space: nowrap;
 }
-
 .carousel-track {
   display: flex;
   gap: 20px;
   animation: scroll-left 50s linear infinite;
 }
-
 @keyframes scroll-left {
   from {
     transform: translateX(0);
@@ -130,5 +118,11 @@
 @media (max-width: 1000px) {
   .custom-swiper-container {
     box-sizing: border-box; /* Exemple de valeur valide */
+  }
+  .strong-cards-slide{
+    font-size: 10px;
+  }
+  .custom-swiper-container .cards-about-slide{
+    padding: 10px;
   }
 }

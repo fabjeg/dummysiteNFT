@@ -1,3 +1,6 @@
+.container-logo_theme{
+  margin-right: 20px;
+}
 .logo_theme {
     border-radius: 50%;
     width: 48px;  
@@ -121,4 +124,12 @@
 
 .navbar-toggler-icon {
   color: white; 
+}
+@media (max-width: 1199px){
+  .container-logo_theme{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
 }
