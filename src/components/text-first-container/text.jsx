@@ -1,10 +1,12 @@
 import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useNavigate } from "react-router-dom";
 import "./text.css";
 
 export function Text() {
   const words = ["BINABOX", "MUSIC", "NFT"];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
+  const navigate = useNavigate();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -13,7 +15,9 @@ export function Text() {
 
     return () => clearInterval(interval);
   }, [words.length]);
-
+const handleWhiteListClick = () => {
+  navigate ("/collection")
+}
   return (
     <div className="title">
       <AnimatePresence>
@@ -63,7 +67,7 @@ export function Text() {
           transition={{ duration: 0.5, delay: 1.5 }} 
         >
           <button className="style_button">CONNECT WALLET</button>
-          <button className="style_button2">WHITELIST NOW</button>
+          <button className="style_button2" onClick={handleWhiteListClick}>WHITELIST NOW</button>
         </motion.div>
       </AnimatePresence>
     </div>
