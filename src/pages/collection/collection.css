@@ -196,6 +196,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
+    padding: 5%;
   }
   .cards-display .cards-about-slide{
     width: 100%;

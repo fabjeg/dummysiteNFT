@@ -1,8 +1,16 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import logoBinabox from "../../assets/logo/logoBinabox.png";
 import "./navBar.css";
+import { useNavigate } from "react-router-dom";
 
 export function NavBar() {
+
+const navigate = useNavigate()
+
+const handleContactClick = () => {
+  navigate('/contact')
+}
+
   return (
     <nav
       className="navbar navbar-expand-lg bg-body-tertiary navbar bg-dark border-bottom border-body"
@@ -93,7 +101,7 @@ export function NavBar() {
             <button type="button" className="button">
               <div className="span">
                 <span className="fa-brands fa-discord"></span>
-                <span>DISCORD</span>
+                <span onClick={handleContactClick}>DISCORD</span>
               </div>
             </button>
             <button type="button" className="button2">

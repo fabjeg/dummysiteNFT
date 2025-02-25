@@ -146,8 +146,6 @@ export function Collection() {
               </button>
             )}
           </div>
-
-          {/* Ajout des 6 cartes ici */}
           <div className="cards-display">
             {cardsData.map((card, index) => (
               <div key={index} className="cards-about-slide">
